@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'bebas-neue': ['"Bebas Neue"', 'sans']
+        'bebas-neue': ['"Bebas Neue"', 'sans'],
+        'roboto-flex': ['"Roboto Flex"', 'sans']
       }
     }
   },

@@ -10,7 +10,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=''/>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500&display=swap" rel="stylesheet"/>
       </Head>
       <div className='flex justify-center'>
         <img className='rounded-full w-60 h-auto items-center z-10 my-9 pt-1.5' 
@@ -55,8 +55,20 @@ const Home: NextPage = () => {
             </button>
           </div>
         </div>
-        <div className='absolute bg-[#3b374a] w-full h-72 z-0 mt-40'>
-        
+        <div className='absolute bg-[#3b374a] w-full h-96 z-0 mt-40'>
+          <div className='flex flex-row mt-40 justify-center ml-[25%] mr-[25%]'>
+            <div className='w-4 h-4 bg-[#2e82af] font-sans my-2.5'/>
+            <div className='flex flex-col'>
+              <p className='text-white font-roboto-flex font-medium text-3xl ml-3'>
+                Profile
+              </p>
+              <p className='paragraph'>
+                Hello, my full name is Muhammad Amin Riqky, and people who knew me call me Amin. 
+                Now, I live in Palembang, South Sumatera. I was born in Palembang, on 13 November 2000.
+                I strive to be the one of best Web and App Developer at every project so i'm always learning.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

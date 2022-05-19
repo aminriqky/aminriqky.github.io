@@ -14,9 +14,19 @@
     bg-white 
     border border-gray-200 
     hover:bg-gray-100 
-    hover:text-blue-700 
+    hover:text-[#2e82af]
     focus:z-10 focus:ring-2 
-    focus:ring-blue-700 
-    focus:text-blue-700;
+    focus:ring-[#2e82af] 
+    focus:text-[#2e82af];
+  }
+  .paragraph {
+    @apply 
+    text-white 
+    font-roboto-flex 
+    font-normal 
+    text-base ml-3 
+    first-letter:text-[#2e82af] 
+    first-letter:text-4xl
+    first-letter:font-medium;
   }
 }
