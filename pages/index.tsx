@@ -1,16 +1,14 @@
+import { Fragment } from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <Fragment>
       <Head>
         <title>Create Next App</title>
         <meta name="portofolio" content="Made with Next.js with TailwindCSS" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=''/>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500&display=swap" rel="stylesheet"/>
       </Head>
       <div className='flex justify-center'>
         <img className='rounded-full w-60 h-auto items-center z-10 my-9 pt-1.5' 
@@ -71,7 +69,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Fragment>
   )
 }
 
