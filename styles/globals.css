@@ -4,8 +4,7 @@
 
 @layer components {
   .btn-primary {
-    @apply 
-    inline-flex 
+    @apply inline-flex 
     items-center 
     py-2 px-2.5 
     text-sm 
@@ -20,8 +19,7 @@
     focus:text-[#2e82af];
   }
   .paragraph {
-    @apply 
-    text-white 
+    @apply text-white 
     font-roboto-flex 
     font-normal 
     text-base ml-3 
