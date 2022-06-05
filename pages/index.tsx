@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
@@ -13,13 +12,11 @@ const Home: NextPage = () => {
       </Head>
       <div className="relative overflow-x-hidden">
         <div className="flex justify-center">
-          <div className="items-center z-10 my-9 pt-1.5">
-            <Image
+          <div className="flex justify-center">
+            <img
+              className="rounded-full w-60 h-auto items-center"
               src="https://github.com/aminriqky.png"
               alt="Profile Picture"
-              width={240}
-              height={240}
-              className="rounded-full"
             />
           </div>
           <div className="flex-row mx-8 z-10">
