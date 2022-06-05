@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <Fragment>
       <Head>
-        <title>Create Next App</title>
+        <title>Amin Riqky's Portofolio</title>
         <meta name="portofolio" content="Made with Next.js with TailwindCSS" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
