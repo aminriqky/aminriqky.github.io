@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
@@ -12,11 +13,15 @@ const Home: NextPage = () => {
       </Head>
       <div className="relative overflow-x-hidden">
         <div className="flex justify-center">
-          <img
-            className="rounded-full w-60 h-auto items-center z-10 my-9 pt-1.5"
-            src="https://github.com/aminriqky.png"
-            alt="Profile Picture"
-          />
+          <div className="items-center z-10 my-9 pt-1.5">
+            <Image
+              src="https://github.com/aminriqky.png"
+              alt="Profile Picture"
+              width={240}
+              height={240}
+              className="rounded-full"
+            />
+          </div>
           <div className="flex-row mx-8 z-10">
             <p className="font-bebas-neue tracking-[.180em] text-5xl mt-24">
               Muhammad Amin Riqky
@@ -134,10 +139,10 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#2e82af] w-full h-96 mt-56">
+        <div className="bg-[#2e82af] w-full h-96 mt-52">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-screen h-8 translate-y-1.5"
+            className="w-screen h-8 translate-y-4"
             fill="none"
           >
             <pattern
