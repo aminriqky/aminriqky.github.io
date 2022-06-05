@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <Fragment>
       <Head>
-        <title>Amin Riqky's Portofolio</title>
+        <title>Amin Riqky&apos;s Portofolio</title>
         <meta name="portofolio" content="Made with Next.js with TailwindCSS" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -112,7 +112,7 @@ const Home: NextPage = () => {
                   knew me call me Amin. Now, I live in Palembang, South
                   Sumatera. I was born in Palembang, on 13 November 2000. I
                   strive to be one of the best Web and App Developer at every
-                  project so i'm always learning.
+                  project so i&apos;m always learning.
                 </p>
               </div>
             </div>
