@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <div className="flex justify-center">
           <div className="flex justify-center">
             <img
-              className="rounded-full w-60 h-auto items-center"
+              className="z-10 my-10 rounded-full w-60 h-auto items-center"
               src="https://github.com/aminriqky.png"
               alt="Profile Picture"
             />
@@ -136,7 +136,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#2e82af] w-full h-96 mt-52">
+        <div className="bg-[#2e82af] w-full h-96 mt-52 pt-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-screen h-8 translate-y-4"
