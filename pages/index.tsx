@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Profile from "../components/Profile";
+import Profile from "../public/Profile";
 
 const Home: NextPage = () => {
   return (
