@@ -6,7 +6,7 @@ const Profile = () => {
 
   useEffect(() => {
     if (profil === "") {
-      setProfil("Hello, my full name is Muhammad Amin Riqky, and people who knew me call me Amin. I currently live in Palembang, South Sumatera in Indonesia. I was born in Palembang, on 13 November 2000. I'm interested in Web Development, Mobile Apps, Linux, Graphic Design, Illustration, UI/UX, Game Development, Web Testing & Other IT-Related Stuff. I strive to be one of the best Web and App Developer at every project so i'm always learning.")
+      setProfil("An IT developer with a background in Information Systems. I focus on developing digital solutions that prioritize engaging and intuitive user experiences on websites and applications. With a creative approach and attention to function, I always strive to produce aesthetic and effective work on projects. I believe that learning is a never-ending process, and I am always open to new challenges that can expand my skills and positive impact in the technology world.")
     }
   }, [profil]);
 
@@ -26,7 +26,7 @@ const Profile = () => {
           alt="Profile Picture"
         />
       </div>
-      <div className="xl:flex-row z-10">
+      <div className="xl:flex-row z-10 flex-wrap max-sm:w-60">
         <p className="font-bebas-neue 2xl:tracking-[.100em] text-2xl max-sm:mx-5 xl:text-5xl mt-24">
           Muhammad Amin Riqky | Tech Enthusiast
         </p>
@@ -136,7 +136,7 @@ const Profile = () => {
             <p className="text-white font-roboto-flex font-medium xl:text-3xl text-xl ml-3">
               Profile
             </p>
-            <div className="paragraph text-sm xl:text-base">
+            <div className="paragraph text-sm xl:text-base text-justify">
               <TypeWriter text={profil} />
             </div>
           </div>
